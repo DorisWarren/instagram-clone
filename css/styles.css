@@ -24,7 +24,7 @@ h1  {
   align-items: center;
   border: 1px solid lightgray;
 
-  background-color: #fafafa;
+  background-color: white;
 
 }
 
@@ -39,11 +39,12 @@ h1  {
   margin-right: 25px;
 }
 
-textarea {
+.search-bar input {
   text-align: center;
   font-size: 15px;
   border-radius: 5px;
   border: 1px solid lightgray;
+  padding: 3px;
 
 }
 
@@ -51,7 +52,6 @@ textarea {
   display: flex;
   flex-direction: row;
   justify-content: center;
-
 }
 
 .spacer {
@@ -116,6 +116,22 @@ textarea {
   padding: 10px;
 }
 
+input {
+  width: 100%;
+  border: 0;
+  border-top: 1px solid lightgray;
+  margin-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* .comments textarea {
+  border: 0;
+  border: 1px solid lightgray;
+  text-align: left;
+  border-radius: 0;
+} */
+
 .icons {
   display: flex;
   flex-direction: row;
@@ -144,7 +160,7 @@ textarea {
 
 @media screen and (max-width: 614px) {
     .main-feed {
-      width:auto;
+      width: auto;
     }
     body {
       margin: 0;
