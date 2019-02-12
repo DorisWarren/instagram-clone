@@ -1,0 +1,66 @@
+.nav-bar {
+
+  width: 100%;
+  height: 77px;
+  background-color: yellow;
+  position: fixed;
+  margin: -9px;
+
+}
+
+
+
+.parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.spacer {
+  width: 935px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.main-feed {
+  width: 614px;
+  background-color: lightgray;
+
+}
+
+
+.side-bar {
+    width: 293px;
+    background-color: lightblue;
+    /* remove later when content is added */
+    height: 400px;
+}
+
+.panel {
+  margin-bottom: 40px;
+}
+.header {
+  width: 614px;
+  height: 60px;
+  background-color: red;
+}
+
+.content-box {
+  width: 614px;
+
+}
+
+.comments {
+  width: 614;
+}
+
+@media screen and (max-width: 1000px) {
+  .side-bar {
+    display: none;
+  }
+  .spacer {
+    justify-content: center;
+  }
+}
