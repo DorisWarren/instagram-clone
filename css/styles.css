@@ -71,9 +71,10 @@ h1  {
 
 .side-bar {
     width: 293px;
-    background-color: lightblue;
+    /* background-color: lightblue; */
     /* remove later when content is added */
-    height: 400px;
+    /* height: 400px; */
+
 }
 
 .panel {
@@ -125,17 +126,47 @@ input {
   padding-bottom: 5px;
 }
 
-/* .comments textarea {
-  border: 0;
+.scroll-box {
+  width: 293px;
+  height: 223px;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
   border: 1px solid lightgray;
-  text-align: left;
-  border-radius: 0;
-} */
+  margin-top: 35px;
+
+}
+.suggestions {
+  width: 293px;
+  height: 223px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  margin-top: 35px;
+}
+
+.story img {
+  border-radius: 50%;
+  border: 1px solid orange;
+  padding: 2px;
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  margin-left: 15px;
+  margin-right: 15px;
+  }
+
+  .story {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 55px;
+  }
 
 .icons {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
 }
 
 .icons img {
